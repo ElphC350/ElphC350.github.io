@@ -4,8 +4,8 @@
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #E6A040;
-    border: 1px solid #E6A040; }
+    color: #FF6200;
+    border: 1px solid #FF6200; }
     #mainNav .navbar-toggler:focus {
       outline: none; }
   #mainNav .navbar-brand {
@@ -46,13 +46,13 @@
           padding: 1.5rem 1.5rem 1.25rem;
           border-bottom: 0.25rem solid transparent; }
           #mainNav.navbar-shrink .nav-link:hover {
-            color: #E6A040; }
+            color: #FF6200; }
           #mainNav.navbar-shrink .nav-link:active {
-            color: #c07a19; }
+            color: #b34500; }
           #mainNav.navbar-shrink .nav-link.active {
-            color: #E6A040;
+            color: #FF6200;
             outline: none;
-            border-bottom: 0.25rem solid #E6A040; } }
+            border-bottom: 0.25rem solid #FF6200; } }
 
 .masthead {
   position: relative;
@@ -105,28 +105,30 @@
   border: 0; }
 
 .btn-primary {
-  background-color: #E6A040; }
+  background-color: #FF6200; }
   .btn-primary:hover {
-    background-color: #d7881c; }
+    background-color: #cc4e00; }
   .btn-primary:focus {
-    background-color: #d7881c;
+    background-color: #cc4e00;
     color: white; }
   .btn-primary:active {
-    background-color: #c07a19 !important; }
+    background-color: #b34500 !important; }
 
 .about-section {
-  padding-top: 10rem; }
+  padding-top: 5rem;
+  min-height: 100vh; }
   .about-section p {
     margin-bottom: 5rem; }
 
 .experience-section {
-  padding: 10rem 0; }
+  padding: 5rem 0;
+  min-height: 100vh; }
   .experience-section .featured-text {
     padding: 2rem; }
     @media (min-width: 992px) {
       .experience-section .featured-text {
         padding: 0 0 0 2rem;
-        border-left: 0.5rem solid #E6A040; } }
+        border-left: 0.5rem solid #FF6200; } }
   .experience-section .experience-text {
     padding: 3rem;
     font-size: 90%; }
@@ -134,7 +136,7 @@
       .experience-section .experience-text {
         padding: 5rem; }
         .experience-section .experience-text hr {
-          border-color: #E6A040;
+          border-color: #FF6200;
           border-width: .25rem;
           width: 30%; } }
 
@@ -143,7 +145,8 @@
   min-height: 100vh; }
 
 .skills-section {
-  padding: 10rem 0; }
+  padding: 5rem 0;
+  min-height: 100vh; }
   .skills-section .dev-icons {
     font-size: 3rem; }
     .skills-section .dev-icons .fa-html5:hover {
@@ -152,44 +155,51 @@
       color: #3C99DC; }
     .skills-section .dev-icons .fa-js-square:hover {
       color: #F0DB4F; }
-    .skills-section .dev-icons .fa-react:hover {
-      color: #61DBFB; }
     .skills-section .dev-icons .fa-node-js:hover {
       color: #68A063; }
     .skills-section .dev-icons .fa-sass:hover {
       color: #CD6799; }
     .skills-section .dev-icons .fa-less:hover {
       color: #003A72; }
-    .skills-section .dev-icons .fa-gulp:hover {
-      color: #DB4446; }
-    .skills-section .dev-icons .fa-grunt:hover {
-      color: #FBA91A; }
     .skills-section .dev-icons .fa-npm:hover {
       color: #CC3534; }
+    .skills-section .dev-icons .fa-react {
+      font-size: 2rem; }
+    .skills-section .dev-icons .fa-react:hover {
+      color: #61DBFB; }
+    .skills-section .dev-icons .fa-gulp {
+      font-size: 2rem; }
+    .skills-section .dev-icons .fa-gulp:hover {
+      color: #DB4446; }
+    .skills-section .dev-icons .fa-grunt {
+      font-size: 2rem; }
+    .skills-section .dev-icons .fa-grunt:hover {
+      color: #FBA91A; }
 
 .interests-section {
-  padding: 10rem 0; }
+  padding: 5rem 0;
+  min-height: 100vh; }
   .interests-section i {
     font-size: 3rem;
     margin: 0 20px 20px 20px; }
   .interests-section i:hover {
-    color: #E6A040; }
+    color: #FF6200; }
 
 .contact-section {
   padding: 5rem 0 0; }
   .contact-section .row a:hover {
-    color: #E6A040;
+    color: #FF6200;
     text-decoration: underline; }
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #E6A040; }
+    border-bottom: 0.25rem solid #FF6200; }
     .contact-section .card h4 {
       font-size: 0.8rem;
       font-family: 'Varela Round';
       text-transform: uppercase;
       letter-spacing: 0.15rem; }
     .contact-section .card hr {
-      border-color: #E6A040;
+      border-color: #FF6200;
       border-width: 0.25rem;
       width: 3rem; }
   .contact-section .social {
@@ -219,23 +229,26 @@ body {
   letter-spacing: 0.0625em; }
 
 a {
-  color: #E6A040; }
+  color: #FF6200; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #aa6c16; }
+    color: #993b00; }
 
 .bg-black {
   background-color: #161616 !important; }
 
 .bg-primary {
-  background-color: #E6A040 !important; }
+  background-color: #FF6200 !important; }
 
 .text-primary {
-  color: #E6A040 !important; }
+  color: #FF6200 !important; }
 
 .subheading {
   font-weight: 500;
   font-size: 1.2rem; }
+
+.section-title {
+  margin-bottom: 4rem; }
 
 .strike-that {
   text-decoration: line-through; }

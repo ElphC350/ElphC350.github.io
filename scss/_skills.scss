@@ -1,5 +1,6 @@
 .skills-section {
-    padding: 10rem 0;
+    padding: 5rem 0;
+    min-height: 100vh;
     .dev-icons {
         font-size: 3rem;
         .fa-html5:hover {
@@ -11,9 +12,6 @@
         .fa-js-square:hover {
             color: $javaLogo;
         }
-        .fa-react:hover {
-            color: $reactLogo;
-        }
         .fa-node-js:hover {
             color: $nodejsLogo;
         }
@@ -23,14 +21,26 @@
         .fa-less:hover {
             color: $lessLogo;
         }
+        .fa-npm:hover {
+            color: $npmLogo;
+        }
+        .fa-react {
+            font-size: $smolr;
+        }
+        .fa-react:hover {
+            color: $reactLogo;
+        }
+        .fa-gulp {
+            font-size: $smolr;
+        }
         .fa-gulp:hover {
             color: $gulpLogo;
         }
+        .fa-grunt {
+            font-size: $smolr;
+        }
         .fa-grunt:hover {
             color: $gruntLogo;
-        }
-        .fa-npm:hover {
-            color: $npmLogo;
         }
     }
 }

@@ -1,0 +1,36 @@
+.skills-section {
+    padding: 10rem 0;
+    .dev-icons {
+        font-size: 3rem;
+        .fa-html5:hover {
+            color: $htmlLogo;
+        }
+        .fa-css3-alt:hover {
+            color: $cssLogo;
+        }
+        .fa-js-square:hover {
+            color: $javaLogo;
+        }
+        .fa-react:hover {
+            color: $reactLogo;
+        }
+        .fa-node-js:hover {
+            color: $nodejsLogo;
+        }
+        .fa-sass:hover {
+            color: $sassLogo;
+        }
+        .fa-less:hover {
+            color: $lessLogo;
+        }
+        .fa-gulp:hover {
+            color: $gulpLogo;
+        }
+        .fa-grunt:hover {
+            color: $gruntLogo;
+        }
+        .fa-npm:hover {
+            color: $npmLogo;
+        }
+    }
+}

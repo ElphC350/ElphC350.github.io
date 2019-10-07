@@ -1,0 +1,30 @@
+{
+    "name": "mysite",
+    "version": "1.0.0",
+    "description": "This is directory that contains my personal website, resume or portfolio.",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run watch:all",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server",
+        "scss": "node-sass -o css/ scss/",
+        "watch:scss": "onchange \"scss/\" -- npm run scss",
+        "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElphC350/ElphC350.github.io.git"
+    },
+    "author": "Tihani Celeketic",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ElphC350/ElphC350.github.io/issues"
+    },
+    "homepage": "https://github.com/ElphC350/ElphC350.github.io#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4",
+        "node-sass": "^4.12.0",
+        "onchange": "^6.1.0",
+        "parallelshell": "^3.0.2"
+    }
+}

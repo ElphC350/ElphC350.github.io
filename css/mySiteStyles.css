@@ -251,6 +251,9 @@ a {
 .section-title {
   margin-bottom: 4rem; }
 
+.flav-text {
+  color: #7a7a7a; }
+
 .strike-that {
   text-decoration: line-through; }
 

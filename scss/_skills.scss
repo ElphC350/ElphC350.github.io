@@ -3,44 +3,35 @@
     min-height: 100vh;
     .dev-icons {
         font-size: 3rem;
-        .fa-html5:hover {
+        .fa-html5 {
             color: $htmlLogo;
         }
-        .fa-css3-alt:hover {
+        .fa-css3-alt {
             color: $cssLogo;
         }
-        .fa-js-square:hover {
+        .fa-js-square {
             color: $javaLogo;
         }
-        .fa-node-js:hover {
+        .fa-node-js {
             color: $nodejsLogo;
         }
-        .fa-sass:hover {
+        .fa-sass {
             color: $sassLogo;
         }
-        .fa-less:hover {
+        .fa-less {
             color: $lessLogo;
         }
-        .fa-npm:hover {
+        .fa-npm {
             color: $npmLogo;
         }
         .fa-react {
-            font-size: $smolr;
-        }
-        .fa-react:hover {
-            color: $reactLogo;
+            color: $gray-500;
         }
         .fa-gulp {
-            font-size: $smolr;
-        }
-        .fa-gulp:hover {
-            color: $gulpLogo;
+            color: $gray-500;
         }
         .fa-grunt {
-            font-size: $smolr;
-        }
-        .fa-grunt:hover {
-            color: $gruntLogo;
+            color: $gray-500;
         }
     }
 }

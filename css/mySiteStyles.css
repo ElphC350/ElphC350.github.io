@@ -150,32 +150,26 @@
   min-height: 100vh; }
   .skills-section .dev-icons {
     font-size: 3rem; }
-    .skills-section .dev-icons .fa-html5:hover {
+    .skills-section .dev-icons .fa-html5 {
       color: #E44D26; }
-    .skills-section .dev-icons .fa-css3-alt:hover {
+    .skills-section .dev-icons .fa-css3-alt {
       color: #3C99DC; }
-    .skills-section .dev-icons .fa-js-square:hover {
+    .skills-section .dev-icons .fa-js-square {
       color: #F0DB4F; }
-    .skills-section .dev-icons .fa-node-js:hover {
+    .skills-section .dev-icons .fa-node-js {
       color: #68A063; }
-    .skills-section .dev-icons .fa-sass:hover {
+    .skills-section .dev-icons .fa-sass {
       color: #CD6799; }
-    .skills-section .dev-icons .fa-less:hover {
+    .skills-section .dev-icons .fa-less {
       color: #003A72; }
-    .skills-section .dev-icons .fa-npm:hover {
+    .skills-section .dev-icons .fa-npm {
       color: #CC3534; }
     .skills-section .dev-icons .fa-react {
-      font-size: 2rem; }
-    .skills-section .dev-icons .fa-react:hover {
-      color: #61DBFB; }
+      color: #adb5bd; }
     .skills-section .dev-icons .fa-gulp {
-      font-size: 2rem; }
-    .skills-section .dev-icons .fa-gulp:hover {
-      color: #DB4446; }
+      color: #adb5bd; }
     .skills-section .dev-icons .fa-grunt {
-      font-size: 2rem; }
-    .skills-section .dev-icons .fa-grunt:hover {
-      color: #FBA91A; }
+      color: #adb5bd; }
 
 .interests-section {
   padding: 5rem 0;

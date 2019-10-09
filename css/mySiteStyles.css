@@ -29,6 +29,10 @@
       #mainNav .navbar-brand {
         padding: .5rem 0;
         color: rgba(255, 255, 255, 0.5); }
+        #mainNav .navbar-brand:hover {
+          color: rgba(255, 255, 255, 0.75); }
+        #mainNav .navbar-brand:active {
+          color: white; }
       #mainNav .nav-link {
         transition: none;
         padding: 2rem 1.5rem;
@@ -41,6 +45,14 @@
         background-color: #161616; }
         #mainNav.navbar-shrink .navbar-brand {
           color: #ffffff; }
+          #mainNav.navbar-shrink .navbar-brand:hover {
+            color: #FF6200; }
+          #mainNav.navbar-shrink .navbar-brand:active {
+            color: #b34500; }
+          #mainNav.navbar-shrink .navbar-brand.active {
+            color: #FF6200;
+            outline: none;
+            border-bottom: 0.25rem solid #FF6200; }
         #mainNav.navbar-shrink .nav-link {
           color: #ffffff;
           padding: 1.5rem 1.5rem 1.25rem;
@@ -130,16 +142,13 @@
       .experience-section .featured-text {
         padding: 0 0 0 2rem;
         border-left: 0.5rem solid #FF6200; } }
-  .experience-section .experience-text {
-    padding: 3rem;
-    font-size: 90%; }
-    @media (min-width: 992px) {
-      .experience-section .experience-text {
-        padding: 5rem; }
-        .experience-section .experience-text hr {
-          border-color: #FF6200;
-          border-width: .25rem;
-          width: 30%; } }
+  .experience-section .pointer {
+    cursor: pointer; }
+  .experience-section .exp-link:hover {
+    color: #FF6200; }
+  .experience-section .see-btn {
+    box-shadow: 2px 4px 8px #dee2e6;
+    border-radius: 5px; }
 
 .education-section {
   padding: 5rem 0;
@@ -150,26 +159,32 @@
   min-height: 100vh; }
   .skills-section .dev-icons {
     font-size: 3rem; }
-    .skills-section .dev-icons .fa-html5 {
+    .skills-section .dev-icons .fa-html5:hover {
       color: #E44D26; }
-    .skills-section .dev-icons .fa-css3-alt {
+    .skills-section .dev-icons .fa-css3-alt:hover {
       color: #3C99DC; }
-    .skills-section .dev-icons .fa-js-square {
+    .skills-section .dev-icons .fa-js-square:hover {
       color: #F0DB4F; }
-    .skills-section .dev-icons .fa-node-js {
+    .skills-section .dev-icons .fa-node-js:hover {
       color: #68A063; }
-    .skills-section .dev-icons .fa-sass {
+    .skills-section .dev-icons .fa-sass:hover {
       color: #CD6799; }
-    .skills-section .dev-icons .fa-less {
+    .skills-section .dev-icons .fa-less:hover {
       color: #003A72; }
-    .skills-section .dev-icons .fa-npm {
+    .skills-section .dev-icons .fa-npm:hover {
       color: #CC3534; }
     .skills-section .dev-icons .fa-react {
       color: #adb5bd; }
+    .skills-section .dev-icons .fa-react:hover {
+      color: #61DBFB; }
     .skills-section .dev-icons .fa-gulp {
       color: #adb5bd; }
+    .skills-section .dev-icons .fa-gulp:hover {
+      color: #DB4446; }
     .skills-section .dev-icons .fa-grunt {
       color: #adb5bd; }
+    .skills-section .dev-icons .fa-grunt:hover {
+      color: #FBA91A; }
 
 .interests-section {
   padding: 5rem 0;
@@ -182,9 +197,6 @@
 
 .contact-section {
   padding: 5rem 0 0; }
-  .contact-section .row a:hover {
-    color: #FF6200;
-    text-decoration: underline; }
   .contact-section .card {
     border: 0;
     border-bottom: 0.25rem solid #FF6200; }
@@ -226,7 +238,7 @@ body {
 a {
   color: #FF6200; }
   a:focus, a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #993b00; }
 
 .bg-black {

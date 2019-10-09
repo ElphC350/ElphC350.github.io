@@ -8,16 +8,14 @@
             border-left: 0.5rem solid $primary;
         }
     }
-    .experience-text {
-        padding: 3rem;
-        font-size: 90%;
-        @media (min-width: 992px) {
-            padding: 5rem;
-            hr {
-                border-color: $primary;
-                border-width: .25rem;
-                width: 30%;
-            }
-        }
+    .pointer {
+        cursor: pointer;
+    }
+    .exp-link:hover {
+        color: $primary;
+    }
+    .see-btn {
+        box-shadow: 2px 4px 8px $gray-300;
+        border-radius: 5px;
     }
 }

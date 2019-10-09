@@ -38,6 +38,12 @@
         .navbar-brand {
             padding: .5rem 0;
             color: fade-out($white, .5);
+            &:hover {
+                color: fade-out($white, .25);
+            }
+            &:active {
+                color: white;
+            }
         }
         .nav-link {
             transition: none;
@@ -54,6 +60,17 @@
             background-color: $black;
             .navbar-brand {
                 color: $white;
+                &:hover {
+                    color: $primary;
+                }
+                &:active {
+                    color: darken($primary, 15%);
+                }
+                &.active {
+                    color: $primary;
+                    outline: none;
+                    border-bottom: 0.25rem solid $primary;
+                }
             }
             .nav-link {
                 color: $white;

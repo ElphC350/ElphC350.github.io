@@ -8,11 +8,21 @@
             border-left: 0.5rem solid $primary;
         }
     }
+    #accordion {
+            .bot-md-space {
+                margin-bottom: 4rem;
+                @media (min-width: 992px) {
+                    margin-bottom: 0;
+                }
+            }
+    }
     .pointer {
         cursor: pointer;
     }
-    .exp-link:hover {
-        color: $primary;
+    .exp-link {
+        &:hover{
+            color: $primary;
+        }
     }
     .see-btn {
         box-shadow: 2px 4px 8px $gray-300;

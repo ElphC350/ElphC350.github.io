@@ -13,6 +13,7 @@
     <!-- Custom Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <!-- build:css css/main.css -->
@@ -29,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <i class="fab fa-fort-awesome fa-2x"></i>
+                <i class="fab fa-fort-awesome fa-lg"></i>
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -85,7 +86,7 @@
   <!-- About Section -->
     <section id="about" class="about-section">
         <div class="container align-items-center">
-            <div class="row h-100 align-items-center">
+            <div class="row align-items-center">
                 <div class="col-12 section-title">
                     <h2 class="text-center">Get to know me</h2>
                 </div>
@@ -118,7 +119,7 @@
                                         <span class="subheading ml-3">Uber Technologies</span>
                                     </div>
                                     <div class="text-center d-md-block">
-                                        <span class="text-primary">October 2018 - Present</span>
+                                        <span class="text-primary bot-md-space">October 2018 - Present</span>
                                     </div>
                                 </div>
                             </div>
@@ -335,38 +336,98 @@
                 <div class="col-12 section-title">
                     <h1 class="text-center">Interests</h1>
                 </div>
-                <div class="mx-auto col-8 col-md-10 text-center">
-                   <!-- Row 1 -->
-                    <i class="fas fa-hiking" data-toggle="tooltip" data-html="true" data-placement="top" title="Hiking"></i>
-                    <i class="fas fa-snowboarding" data-toggle="tooltip" data-html="true" data-placement="top" title="Snowboarding"></i>
-                    <i class="fas fa-code" data-toggle="tooltip" data-html="true" data-placement="top" title="Coding"></i>
-                    <i class="fas fa-mug-hot" data-toggle="tooltip" data-html="true" data-placement="top" title="Coffee & Tea"></i>
-                    <i class="fas fa-mountain" data-toggle="tooltip" data-html="true" data-placement="top" title="Scenery"></i>
-                    <i class="fas fa-globe-europe" data-toggle="tooltip" data-html="true" data-placement="top" title="Globalization"></i>
-                    <i class="fas fa-pizza-slice" data-toggle="tooltip" data-html="true" data-placement="top" title="Pizza"></i>
-                    <i class="fas fa-campground" data-toggle="tooltip" data-html="true" data-placement="top" title="Camping"></i>
-                    <i class="fas fa-swimmer" data-toggle="tooltip" data-html="true" data-placement="top" title="Swimming"></i>
-                   <!-- Row 2 -->
-                    <i class="fas fa-cocktail" data-toggle="tooltip" data-html="true" data-placement="top" title="Cocktails"></i>
-                    <i class="fas fa-plane-departure" data-toggle="tooltip" data-html="true" data-placement="top" title="Traveling"></i>
-                    <i class="fas fa-hat-wizard" data-toggle="tooltip" data-html="true" data-placement="top" title="Wizardry"></i>
-                    <i class="fas fa-horse" data-toggle="tooltip" data-html="true" data-placement="top" title="Horseback Riding"></i>
-                    <i class="fas fa-headphones" data-toggle="tooltip" data-html="true" data-placement="top" title="Music"></i>
-                    <i class="fas fa-biking" data-toggle="tooltip" data-html="true" data-placement="top" title="Biking"></i>
-                    <i class="fas fa-bacon" data-toggle="tooltip" data-html="true" data-placement="top" title="BACON"></i>
-                    <i class="fas fa-seedling" data-toggle="tooltip" data-html="true" data-placement="top" title="Gardening"></i>
-                    <i class="fas fa-stroopwafel" data-toggle="tooltip" data-html="true" data-placement="top" title="Stroopwafels"></i>
-                   <!-- Row 3 -->
-                    <i class="fas fa-dice-d20" data-toggle="tooltip" data-html="true" data-placement="top" title="Tabletop Games"></i>
-                    <i class="fas fa-gamepad" data-toggle="tooltip" data-html="true" data-placement="top" title="Video Games"></i>
-                    <i class="fas fa-chess" data-toggle="tooltip" data-html="true" data-placement="top" title="Board Games"></i>
-                    <i class="fas fa-anchor" data-toggle="tooltip" data-html="true" data-placement="top" title="Sailing"></i>
-                    <i class="fas fa-microscope" data-toggle="tooltip" data-html="true" data-placement="top" title="Observation"></i>
-                    <i class="fas fa-flask" data-toggle="tooltip" data-html="true" data-placement="top" title="Science!"></i>
-                    <i class="fas fa-hot-tub" data-toggle="tooltip" data-html="true" data-placement="top" title="Hot Tubbing"></i>
-                    <i class="fas fa-monument" data-toggle="tooltip" data-html="true" data-placement="top" title="Sightseeing"></i>
-                    <i class="fas fa-umbrella-beach" data-toggle="tooltip" data-html="true" data-placement="top" title="Beach"></i>
+                <!-- Navigation Tabs -->
+                <ul class="nav mx-auto text-center mb-5" role="tablist">
+                    <li class="nav-item"><a class="nav-link btn active" data-toggle="tab" href="#interest-icons">Icons</a></li>
+                    <li class="nav-item"><a class="nav-link btn" data-toggle="tab" href="#interest-list">List</a>
+                </ul>
+                <!-- Content Panes -->
+                <div class="tab-content col-10 mx-auto">
+                    <!-- Interests Icons Pane -->
+                    <div id="interest-icons" class="tab-pane fade show active col-10 col-md-12 mx-auto">
+                        <div class="text-center">
+                           <!-- Row 1 -->
+                            <i class="fas fa-hiking" data-toggle="tooltip" data-html="true" data-placement="top" title="Hiking"></i>
+                            <i class="fas fa-snowboarding" data-toggle="tooltip" data-html="true" data-placement="top" title="Snowboarding"></i>
+                            <i class="fas fa-code" data-toggle="tooltip" data-html="true" data-placement="top" title="Coding"></i>
+                            <i class="fas fa-mug-hot" data-toggle="tooltip" data-html="true" data-placement="top" title="Coffee & Tea"></i>
+                            <i class="fas fa-mountain" data-toggle="tooltip" data-html="true" data-placement="top" title="Scenery"></i>
+                            <i class="fas fa-globe-europe" data-toggle="tooltip" data-html="true" data-placement="top" title="Globalization"></i>
+                            <i class="fas fa-pizza-slice" data-toggle="tooltip" data-html="true" data-placement="top" title="Pizza"></i>
+                            <i class="fas fa-campground" data-toggle="tooltip" data-html="true" data-placement="top" title="Camping"></i>
+                            <i class="fas fa-swimmer" data-toggle="tooltip" data-html="true" data-placement="top" title="Swimming"></i>
+                           <!-- Row 2 -->
+                            <i class="fas fa-cocktail" data-toggle="tooltip" data-html="true" data-placement="top" title="Cocktails"></i>
+                            <i class="fas fa-plane-departure" data-toggle="tooltip" data-html="true" data-placement="top" title="Traveling"></i>
+                            <i class="fas fa-hat-wizard" data-toggle="tooltip" data-html="true" data-placement="top" title="Wizardry"></i>
+                            <i class="fas fa-horse" data-toggle="tooltip" data-html="true" data-placement="top" title="Horseback Riding"></i>
+                            <i class="fas fa-headphones" data-toggle="tooltip" data-html="true" data-placement="top" title="Music"></i>
+                            <i class="fas fa-biking" data-toggle="tooltip" data-html="true" data-placement="top" title="Biking"></i>
+                            <i class="fas fa-bacon" data-toggle="tooltip" data-html="true" data-placement="top" title="BACON"></i>
+                            <i class="fas fa-seedling" data-toggle="tooltip" data-html="true" data-placement="top" title="Gardening"></i>
+                            <i class="fas fa-stroopwafel" data-toggle="tooltip" data-html="true" data-placement="top" title="Stroopwafels"></i>
+                           <!-- Row 3 -->
+                            <i class="fas fa-dice-d20" data-toggle="tooltip" data-html="true" data-placement="top" title="Tabletop Games"></i>
+                            <i class="fas fa-gamepad" data-toggle="tooltip" data-html="true" data-placement="top" title="Video Games"></i>
+                            <i class="fas fa-chess" data-toggle="tooltip" data-html="true" data-placement="top" title="Board Games"></i>
+                            <i class="fas fa-anchor" data-toggle="tooltip" data-html="true" data-placement="top" title="Sailing"></i>
+                            <i class="fas fa-microscope" data-toggle="tooltip" data-html="true" data-placement="top" title="Observation"></i>
+                            <i class="fas fa-flask" data-toggle="tooltip" data-html="true" data-placement="top" title="Science!"></i>
+                            <i class="fas fa-hot-tub" data-toggle="tooltip" data-html="true" data-placement="top" title="Hot Tubbing"></i>
+                            <i class="fas fa-monument" data-toggle="tooltip" data-html="true" data-placement="top" title="Sightseeing"></i>
+                            <i class="fas fa-umbrella-beach" data-toggle="tooltip" data-html="true" data-placement="top" title="Beach"></i>
+                        </div>
+                    </div>
+                    <!-- Interests List Pane -->
+                    <div id="interest-list" class="tab-pane">
+                        <div class="row">
+                            <div class="col-8 col-md-5 col-lg-3 mx-auto ml-md-auto">
+                                <ul>
+                                    <li>Hiking</li>
+                                    <li>Snowboarding</li>
+                                    <li>Coding</li>
+                                    <li>Coffee &amp; Tea</li>
+                                    <li>Scenery</li>
+                                    <li>Globalization</li>
+                                    <li>Pizza</li>
+                                </ul>
+                            </div>
+                            <div class="col-8 col-md-5 col-lg-3 mx-auto ml-md-auto">
+                                <ul>
+                                    <li>Camping</li>
+                                    <li>Swimming</li>
+                                    <li>Cocktails</li>
+                                    <li>Traveling</li>
+                                    <li>Wizardry</li>
+                                    <li>Horseback Riding</li>
+                                    <li>Music</li>
+                                </ul>
+                            </div>
+                            <div class="col-8 col-md-5 col-lg-3 mx-auto ml-md-auto">
+                                <ul>
+                                    <li>Biking</li>
+                                    <li>Bacon</li>
+                                    <li>Gardening</li>
+                                    <li>Stroopwafels</li>
+                                    <li>Tabletop Games</li>
+                                    <li>Video Games</li>
+                                    <li>Boardgames</li>
+                                </ul>
+                            </div>
+                            <div class="col-8 col-md-5 col-lg-3 mx-auto ml-md-auto">
+                                <ul>
+                                    <li>Sailing</li>
+                                    <li>Observation</li>
+                                    <li>Science!</li>
+                                    <li>Hot Tubbing</li>
+                                    <li>Sightseeing</li>
+                                    <li>Beach</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -374,9 +435,7 @@
     <!-- Contact Section -->
     <section class="contact-section bg-black">
         <div class="container">
-
             <div class="row">
-
                 <div class="col-md-4 mb-3 mb-md-0">
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
@@ -420,7 +479,7 @@
                 <a href="https://github.com/ElphC350" class="github-hov" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://twitter.com/AvaC350" class="twitter-hov" target="_blank">
+                <a href="https://twitter.com/TeaCelek" class="twitter-hov" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
                 <a href="https://www.facebook.com/avac350" class="fb-hov" target="_blank">

@@ -4,13 +4,13 @@
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #FF6200;
-    border: 1px solid #FF6200; }
+    color: #FFB001;
+    border: 1px solid #FFB001; }
     #mainNav .navbar-toggler:focus {
       outline: none; }
   #mainNav .navbar-brand {
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 400;
     padding: .9rem 0; }
   #mainNav .navbar-nav .nav-item:hover {
     color: fade(white, 80%);
@@ -46,25 +46,25 @@
         #mainNav.navbar-shrink .navbar-brand {
           color: #ffffff; }
           #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #FF6200; }
+            color: #FFB001; }
           #mainNav.navbar-shrink .navbar-brand:active {
-            color: #b34500; }
+            color: #b47c00; }
           #mainNav.navbar-shrink .navbar-brand.active {
-            color: #FF6200;
+            color: #FFB001;
             outline: none;
-            border-bottom: 0.25rem solid #FF6200; }
+            border-bottom: 0.25rem solid #FFB001; }
         #mainNav.navbar-shrink .nav-link {
           color: #ffffff;
           padding: 1.5rem 1.5rem 1.25rem;
           border-bottom: 0.25rem solid transparent; }
           #mainNav.navbar-shrink .nav-link:hover {
-            color: #FF6200; }
+            color: #FFB001; }
           #mainNav.navbar-shrink .nav-link:active {
-            color: #b34500; }
+            color: #b47c00; }
           #mainNav.navbar-shrink .nav-link.active {
-            color: #FF6200;
+            color: #FFB001;
             outline: none;
-            border-bottom: 0.25rem solid #FF6200; } }
+            border-bottom: 0.25rem solid #FFB001; } }
 
 .masthead {
   position: relative;
@@ -77,10 +77,11 @@
   background-attachment: scroll;
   background-size: cover; }
   .masthead h1 {
-    font-family: 'Varela Round';
-    font-size: 2.5rem;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 2.4rem;
     line-height: 2.5rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.5rem;
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
@@ -97,16 +98,18 @@
       height: 100vh;
       padding: 0; }
       .masthead h1 {
-        font-size: 6.5rem;
-        line-height: 6.5rem;
+        font-size: 6.2rem;
+        line-height: 6.9rem;
         letter-spacing: 0.8rem; }
       .masthead h2 {
         max-width: 30rem;
         font-size: 1.25rem; } }
+  .masthead .masthead-title {
+    font-family: 'Cinzel Decorative', cursive; }
 
 .space-fill {
   background: #161616;
-  min-height: 150px; }
+  min-height: 200px; }
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -115,17 +118,17 @@
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
-  border: 0; }
+  border: .5px solid #ebebeb; }
 
 .btn-primary {
-  background-color: #FF6200; }
+  background-color: #FFB001; }
   .btn-primary:hover {
-    background-color: #cc4e00; }
+    background-color: #cd8d00; }
   .btn-primary:focus {
-    background-color: #cc4e00;
+    background-color: #cd8d00;
     color: white; }
   .btn-primary:active {
-    background-color: #b34500 !important; }
+    background-color: #b47c00 !important; }
 
 .about-section {
   padding-top: 5rem;
@@ -141,11 +144,16 @@
     @media (min-width: 992px) {
       .experience-section .featured-text {
         padding: 0 0 0 2rem;
-        border-left: 0.5rem solid #FF6200; } }
+        border-left: 0.5rem solid #FFB001; } }
+  .experience-section #accordion .bot-md-space {
+    margin-bottom: 4rem; }
+    @media (min-width: 992px) {
+      .experience-section #accordion .bot-md-space {
+        margin-bottom: 0; } }
   .experience-section .pointer {
     cursor: pointer; }
   .experience-section .exp-link:hover {
-    color: #FF6200; }
+    color: #FFB001; }
   .experience-section .see-btn {
     box-shadow: 2px 4px 8px #dee2e6;
     border-radius: 5px; }
@@ -193,20 +201,28 @@
     font-size: 3rem;
     margin: 0 20px 20px 20px; }
   .interests-section i:hover {
-    color: #FF6200; }
+    color: #FFB001; }
+  .interests-section .btn {
+    color: #FFB001; }
+    .interests-section .btn:hover {
+      background-color: #f8f9fa;
+      color: #ffc034; }
+    .interests-section .btn:focus {
+      background: linear-gradient(#f8f9fa 50%, #e9ecef);
+      color: #ffc034; }
 
 .contact-section {
   padding: 5rem 0 0; }
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #FF6200; }
+    border-bottom: 0.25rem solid #FFB001; }
     .contact-section .card h4 {
       font-size: 0.8rem;
       font-family: 'Varela Round';
       text-transform: uppercase;
       letter-spacing: 0.15rem; }
     .contact-section .card hr {
-      border-color: #FF6200;
+      border-color: #FFB001;
       border-width: 0.25rem;
       width: 3rem; }
   .contact-section .social {
@@ -232,23 +248,23 @@
       background: #3C5A99; }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.0625em; }
 
 a {
-  color: #FF6200; }
+  color: #FFB001; }
   a:focus, a:hover {
     text-decoration: underline;
-    color: #993b00; }
+    color: #9a6a00; }
 
 .bg-black {
   background-color: #161616 !important; }
 
 .bg-primary {
-  background-color: #FF6200 !important; }
+  background-color: #FFB001 !important; }
 
 .text-primary {
-  color: #FF6200 !important; }
+  color: #FFB001 !important; }
 
 .subheading {
   font-weight: 500;
